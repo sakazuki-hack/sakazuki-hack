@@ -1,6 +1,6 @@
 <template>
     <div class="Contact">
-        <span>導入申込</span>
+        <h1>導入申込</h1>
     </div>
     <div class="container">
       <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSezg3A4qeEZBlo8jPIGwr133wfQC_8vWvVxQtUwvabKtXNIoA/formResponse">
@@ -33,12 +33,17 @@
 
 <style>
   .Contact {
-    font-size: 24px;
+    font-size: 64px;
     font-weight: bold;
     text-align: center; /* タイトルを中央に */
     margin-top: 50px;
     margin-bottom: 30px; /* フォームとの間のスペースを調整 */
     color: #333; /* タイトルの色をダークグレーに設定 */
+  }
+
+  .Contact h1{
+    font-size: 64px;
+    color: #1D4592;
   }
 
   .container {

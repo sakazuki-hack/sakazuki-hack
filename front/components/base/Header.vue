@@ -79,7 +79,7 @@ beforeUnmounted() {
 <style scoped>
 .header {
     position: fixed;
-    width: 98%;
+    width: 100%;
     padding: 10px;
     display: flex;
     align-items: center;

@@ -89,7 +89,7 @@
 
 .melit-title {
     text-align: center;
-    font-size: 64px;
+    font-size: 58px;
 }
 
 .melit-content {
@@ -129,7 +129,7 @@
 }
 
 .title-row1 {
-    font-size: 40px;
+    font-size: 38px;
     margin: 0;
 }
 
@@ -137,6 +137,7 @@
     margin-top: 50px;
     margin-left: 10px;
     line-height: 50px;
+    font-size: 14px;
 }
 
 </style>

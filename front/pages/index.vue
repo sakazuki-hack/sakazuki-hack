@@ -3,6 +3,7 @@
     <Header />
     <CatchCopy />
     <SakazukiIntro />
+    <Over />
     <Contact />
     <Footer />
   </div>
@@ -15,6 +16,7 @@ import Footer from '~/components/base/Footer.vue'
 import CatchCopy from '~/components/sections/CatchCopy.vue'
 import SakazukiIntro from '~/components/sections/SakazukiIntro.vue'
 import Contact from '~/components/sections/Contact.vue'
+import Over from '~/components/base/OverAll.vue'
 
 export default {
   components: {
@@ -22,11 +24,15 @@ export default {
     Footer,
     CatchCopy,
     SakazukiIntro,
-    Contact
+    Contact,
+    Over,
   }
 }
 </script>
 
 <style>
-/* グローバルスタイルやページ固有のスタイルをここに追加できます */
+body{
+  margin: 0;
+  padding:0;
+}
 </style>

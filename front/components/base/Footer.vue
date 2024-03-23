@@ -29,7 +29,7 @@
 <style>
 .section{
     /* width: 100px; */
-    height: 500px;
+    height: 50px;
 }
 .footer {
     padding: 10px;
