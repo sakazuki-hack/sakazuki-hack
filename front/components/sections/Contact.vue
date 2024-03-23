@@ -1,6 +1,6 @@
 <template>
     <div class="Contact">
-        <span>コンタクト</span>
+        <span>導入申込</span>
     </div>
     <div class="container">
       <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSezg3A4qeEZBlo8jPIGwr133wfQC_8vWvVxQtUwvabKtXNIoA/formResponse">
@@ -32,30 +32,61 @@
 </script>
 
 <style>
-    .Contact {
-        font-size: 24px;
-        font-weight: bold;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
+  .Contact {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* タイトルを中央に */
+    margin-top: 50px;
+    margin-bottom: 30px; /* フォームとの間のスペースを調整 */
+    color: #333; /* タイトルの色をダークグレーに設定 */
+  }
 
-    .container {
-        display: flex;
-        justify-content: center;
-    }
+  .container {
+    display: flex;
+    flex-direction: column; /* フォーム要素を縦に並べる */
+    max-width: 500px; /* フォームの最大幅を設定 */
+    margin: 0 auto; /* フォームをページ中央に配置 */
+    padding: 20px; /* フォームの内側の余白を設定 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* フォームに影を付ける */
+    border-radius: 8px; /* フォームの角を丸くする */
+    background-color: #fff; /* フォームの背景色を白に設定 */
+  }
 
-    .TextBox {
-        width: 100%;
-        margin-bottom: 20px;
-    }
+  .TextBox {
+    width: calc(100% - 20px); /* 全幅からpadding分を引く */
+    margin-bottom: 20px; /* 要素間の余白を設定 */
+    padding: 10px; /* テキストボックスの内側の余白を設定 */
+    border: 1px solid #ddd; /* テキストボックスの枠線を設定 */
+    border-radius: 4px; /* テキストボックスの角を丸くする */
+    font-size: 16px; /* テキストボックスのフォントサイズを設定 */
+  }
 
-    .btn {
-        width: 100%;
-        background-color: #f00;
-        color: #fff;
-        padding: 10px;
-        border-radius: 5px;
-        cursor: pointer;
-    }
+  .btn {
+    width: calc(100% - 20px); /* 全幅からpadding分を引く */
+    background-color: #0056b3; /* 送信ボタンの背景色を設定 */
+    color: #fff;
+    padding: 15px; /* 送信ボタンの内側の余白を設定 */
+    border: none; /* 送信ボタンの枠線を取り除く */
+    border-radius: 4px; /* 送信ボタンの角を丸くする */
+    margin-top: 10px; /* 送信ボタンの上の余白を設定 */
+    font-size: 18px; /* 送信ボタンのフォントサイズを設定 */
+    transition: background-color 0.3s; /* 背景色の変化を滑らかにする */
+    cursor: pointer;
+  }
 
+  .btn:hover {
+    background-color: #1D4592; /* 送信ボタンにホバーした時の背景色を変更 */
+  }
+
+  label {
+    display: block; /* ラベルをブロック要素に設定 */
+    margin-bottom: 5px; /* ラベルとテキストボックスの間の余白を設定 */
+    font-weight: bold; /* ラベルの文字を太くする */
+    color: #333; /* ラベルの色をダークグレーに設定 */
+  }
+
+  input,
+  textarea {
+    box-sizing: border-box; /* パディングとボーダーをwidthとheightに含める */
+  }
 </style>
