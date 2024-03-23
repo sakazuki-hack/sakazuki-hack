@@ -1,5 +1,5 @@
 <template>
-header1
+header
 </template>
 
 <script>
