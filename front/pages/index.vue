@@ -14,6 +14,9 @@ import Footer from '~/components/base/Footer.vue'
 import CatchCopy from '~/components/sections/CatchCopy.vue'
 import SakazukiIntro from '~/components/sections/SakazukiIntro.vue'
 
+// public.cssでhtmlの余白を消す
+import "~/public/public.css";
+
 export default {
   components: {
     Header,
